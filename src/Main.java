@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Stack<Integer> s = new Stack<Integer>();
+        Stack<Integer> s = new Stack<>();
         System.out.println(s.isEmpty());
         s.push(5);
         System.out.println(s.isEmpty());
